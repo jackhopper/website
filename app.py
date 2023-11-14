@@ -19,25 +19,34 @@ local_css("style/style.css")
 img_f1 = Image.open("images/f1_2021.jpg")
 img_nfl = Image.open("images/nfl.jpg")
 img_lda = Image.open("images/lda_topics.png")
+img_jh = Image.open("images/jack_3.jpg")
 
 
 #-----HEADER SECTION-----
 with st.container():
     st.subheader("Hi, I'm Jack")
     st.title("A data professional from Chicago")
-    st.write("I love analytics & problem-solving. I found out about streamlit from a video online!")
-    
+    st.header("My Professional Experience")
+    st.write('##')
+    st.write(
+    """
+    My professional experience covers the entire analytics lifecycle. I have developed enterprise data warehouses in Snowflake; led Tableau implementations; and led machine learning pipelines.
+    My industry focus has been primarily focused on financial services, both in a Consulting and industry focus. I started my career as an investment Research & Strategy at LaSalle Investment Management, and joined another firm a few years later.
+    After spending 6 years focused on real estate markets & private equity, I pivoted into Consulting to broaden my horizons. I started out at a boutique consulting firm in Chicago focused on data analytics consulting, 
+    and currently work for Deloitte, where I help companies use machine learning to transform financial planning. On my current client engagements I utilize tools like Databricks, Snowflake, and EC2 to deliver accurate forecasts & timely pipelines.
+    """
+    )
+
 #----WHAT I DO----
 with st.container():
     st.write("----")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("What I Do")
+        st.header("Who I Am")
         st.write("##")
         st.write(
     """
-    I am a Senior Consultant at Deloitte. My professional work focuses on using machine learning to transform financial planning workflows. 
-    Prior to this, I spent time learning the ropes of data & analytics at an analytics consulting firm and through my MS in Business Analytics from Notre Dame.
+    I am a data professional currently working as a Senior Consultant at Deloitte. I love music, sports, and learning new things. This is a website to track my personal analytics work. 
     Most of my 'for fun' analytics projects involve sports data of some sort; I have no special conviction about sports data, but it's more fun to analyze things you're interested in!
     In my professional career, I've worked with lots of softwares used data to do many things -- summarize performance, predict the future, organize business metrics -- so in my personal interest, it's all about staying sharp & doing things that are fun.
     The projects in this site are by no means enterprise-worthy, and mostly exploratory in nature, but I enjoyed them & that's what counts!
@@ -45,16 +54,7 @@ with st.container():
     """
         )
     with right_column:
-        st.header("My Professional Experience")
-        st.write('##')
-        st.write(
-    """
-    My professional experience covers the entire analytics lifecycle. I have developed enterprise data warehouses in Snowflake; led Tableau implementaitons; and led machine learning pipelines.
-    My industry focus has been primarily focused on financial services, both in a Consulting and industry focus. I started my career as an investment Research & Strategy at LaSalle Investment Management, and joined another firm a few years later.
-    After spending 6 years focused on real estate markets & private equity, I pivoted into Consulting to broaden my horizons. I started out at a boutique consulting firm in Chicago focused on data analytics consulting, 
-    and currently work for Deloitte, where I help companies use machine learning to transform financial planning. On my current client engagements I utilize tools like Databricks, Snowflake, and EC2 to deliver accurate forecasts & timely pipelines.
-    """
-        )
+        st.image(img_jh, width = 450)
         
 #---- PROJECTS ----
 with st.container():
