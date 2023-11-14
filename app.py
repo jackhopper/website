@@ -63,7 +63,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_f1)
+        st.image(img_f1, width = 300)
     with text_column:
         st.subheader("F1 Analysis")
         st.write(
@@ -77,7 +77,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_nfl)
+        st.image(img_nfl, width = 300)
     with text_column:
         st.subheader("Big Data Bowl 2023")
         st.write(
@@ -92,7 +92,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_lda)
+        st.image(img_lda, width = 300)
     with text_column:
         st.subheader("Text Analysis - Family Documents")
         st.write(
