@@ -47,8 +47,8 @@ with st.container():
         st.write("##")
         st.write(
     """
-    I love music, sports, and learning new things. This is a website to track my personal analytics work. Most of my 'for fun' analytics projects involve sports data of some sort; I have no special conviction about sports data, 
-    but it's more fun to analyze things you're interested in!
+    I love music, sports, and learning new things. This is a website to track my personal analytics work. 
+    Most of my 'for fun' analytics projects involve sports data of some sort; I have no special conviction about sports data, but it's more fun to analyze things you're interested in!
     In my professional career, I've worked with lots of softwares and used data to do many things -- summarize performance, predict the future, organize business metrics -- so in my personal interest, it's all about staying sharp & doing things that are fun.
     The projects in this site are by no means enterprise-worthy, and mostly exploratory in nature, but I enjoyed them & that's what counts!
     
