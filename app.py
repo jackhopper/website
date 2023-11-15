@@ -32,7 +32,7 @@ with st.container():
     st.write(
     """
     My professional experience covers the entire analytics lifecycle. I have developed enterprise data warehouses in Snowflake; led Tableau implementations; and led construction of machine learning pipelines.
-    My industry focus has been primarily focused on financial services, both in a Consulting and industry focus. I started my career as an investment Research & Strategy at LaSalle Investment Management, and joined another firm a few years later.
+    My industry focus has been primarily focused on financial services, both in a Consulting and industry focus. I started my career as an investment Research & Strategy analyst at LaSalle Investment Management, and joined another firm a few years later.
     After spending 6 years focused on real estate markets & private equity, I pivoted into Consulting to broaden my horizons. I started out at a boutique consulting firm in Chicago focused on data analytics consulting, 
     and currently work for Deloitte, where I help companies use machine learning to transform financial planning. On my current client engagements I utilize tools like Databricks, Snowflake, and EC2 to deliver accurate forecasts & timely pipelines.
     """
