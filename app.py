@@ -33,8 +33,8 @@ with st.container():
     """
     My professional experience covers the entire analytics lifecycle. I have developed enterprise data warehouses in Snowflake; led Tableau implementations; and led construction of machine learning pipelines.
     My industry focus has been primarily focused on financial services, both in a Consulting and industry focus. I started my career as an investment Research & Strategy analyst at LaSalle Investment Management, and joined another firm a few years later.
-    After spending 6 years focused on real estate markets & private equity, I pivoted into Consulting to broaden my horizons. I started out at a boutique consulting firm in Chicago focused on data analytics consulting, 
-    and currently work for Deloitte, where I help companies use machine learning to transform financial planning. On my current client engagements I utilize tools like Databricks, Snowflake, and EC2 to deliver accurate forecasts & timely pipelines.
+    After spending 6 years focused on real estate markets & private equity, I got my Master's in Business Analytics and pivoted into Consulting to broaden my horizons. I started out at a boutique consulting firm in Chicago focused on data analytics consulting, 
+    and currently work for Deloitte, where I help companies use machine learning to transform financial planning. On my current client engagements I utilize tools like Databricks, Snowflake, and AWS EC2 to deliver accurate forecasts & timely pipelines.
     """
     )
 
@@ -47,9 +47,9 @@ with st.container():
         st.write("##")
         st.write(
     """
-    I am a data professional currently working as a Senior Consultant at Deloitte. I love music, sports, and learning new things. This is a website to track my personal analytics work. 
-    Most of my 'for fun' analytics projects involve sports data of some sort; I have no special conviction about sports data, but it's more fun to analyze things you're interested in!
-    In my professional career, I've worked with lots of softwares used data to do many things -- summarize performance, predict the future, organize business metrics -- so in my personal interest, it's all about staying sharp & doing things that are fun.
+    I love music, sports, and learning new things. This is a website to track my personal analytics work. Most of my 'for fun' analytics projects involve sports data of some sort; I have no special conviction about sports data, 
+    but it's more fun to analyze things you're interested in!
+    In my professional career, I've worked with lots of softwares and used data to do many things -- summarize performance, predict the future, organize business metrics -- so in my personal interest, it's all about staying sharp & doing things that are fun.
     The projects in this site are by no means enterprise-worthy, and mostly exploratory in nature, but I enjoyed them & that's what counts!
     
     """
@@ -66,7 +66,7 @@ with st.container():
     with image_column:
         st.image(img_stream, width = 300)
     with text_column:
-        st.subheader("This website!")
+        st.subheader("This Website!")
         st.write(
     """
     I don't know HTML, and I don't know CSS. I do, however, know a little Python. I've wanted to learn more about Streamlit, and I found 
@@ -83,11 +83,11 @@ with st.container():
         st.subheader("F1 Analysis")
         st.write(
     """
-    I did a quick analysis of F1's 2021 season to understand how each driver fared against his teammate. I used Python & a Jupyter notebook to do a simple analysis.
+    I did an analysis of F1's 2021 season to understand how each driver fared against his teammate using Python & a Jupyter notebook.
     This analysis is summarized in several key charts -- nothing fancy -- but I like it because, as an avid F1 fan, the conclusions from the analytics ring true with the 'eye test' of what happened that season.
     """   
         )
-        st.markdown("[Check out the code:](https://htmlpreview.github.io/?https://github.com/jackhopper/data-bowl-23/blob/main/big_data_bowl_jh.html)")
+        st.markdown("[Check out the code:](https://github.com/jackhopper/F1-Analysis/blob/main/f1_all_quali_analysis.ipynb)")
 
 with st.container():
     image_column, text_column = st.columns((1,2))
