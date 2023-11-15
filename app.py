@@ -20,6 +20,7 @@ img_f1 = Image.open("images/f1_2021.jpg")
 img_nfl = Image.open("images/nfl.jpg")
 img_lda = Image.open("images/lda_topics.png")
 img_jh = Image.open("images/jack_3.jpg")
+img_stream = Image.open("images/streamlit.jpg")
 
 
 #-----HEADER SECTION-----
@@ -30,7 +31,7 @@ with st.container():
     st.write('##')
     st.write(
     """
-    My professional experience covers the entire analytics lifecycle. I have developed enterprise data warehouses in Snowflake; led Tableau implementations; and led machine learning pipelines.
+    My professional experience covers the entire analytics lifecycle. I have developed enterprise data warehouses in Snowflake; led Tableau implementations; and led construction of machine learning pipelines.
     My industry focus has been primarily focused on financial services, both in a Consulting and industry focus. I started my career as an investment Research & Strategy at LaSalle Investment Management, and joined another firm a few years later.
     After spending 6 years focused on real estate markets & private equity, I pivoted into Consulting to broaden my horizons. I started out at a boutique consulting firm in Chicago focused on data analytics consulting, 
     and currently work for Deloitte, where I help companies use machine learning to transform financial planning. On my current client engagements I utilize tools like Databricks, Snowflake, and EC2 to deliver accurate forecasts & timely pipelines.
@@ -63,16 +64,30 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
+        st.image(img_stream, width = 300)
+    with text_column:
+        st.subheader("This website!")
+        st.write(
+    """
+    I don't know HTML, and I don't know CSS. I do, however, know a little Python. I've wanted to learn more about Streamlit, and I found 
+    a video tutorial that would teach me how to make my own website. That is the basis for this project! This website is extremely basic, but I enjoyed learning how to do this 
+    and I'm glad I got the opportunity. Shout out to the YouTube channel 'Coding Is Fun'!
+    """ 
+        )
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
         st.image(img_f1, width = 300)
     with text_column:
         st.subheader("F1 Analysis")
         st.write(
     """
-    I did a quick analysis of F1's 2021 season to understand how each driver fared against his teammate. I used Python & wrote a simple analysis.
+    I did a quick analysis of F1's 2021 season to understand how each driver fared against his teammate. I used Python & a Jupyter notebook to do a simple analysis.
     This analysis is summarized in several key charts -- nothing fancy -- but I like it because, as an avid F1 fan, the conclusions from the analytics ring true with the 'eye test' of what happened that season.
-    """ 
+    """   
         )
-        st.markdown("[Check out the code:](https://github.com/jackhopper/F1-Analysis/blob/main/f1_all_quali_analysis.ipynb)")
+        st.markdown("[Check out the code:](https://htmlpreview.github.io/?https://github.com/jackhopper/data-bowl-23/blob/main/big_data_bowl_jh.html)")
 
 with st.container():
     image_column, text_column = st.columns((1,2))
