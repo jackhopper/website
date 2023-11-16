@@ -1,0 +1,24 @@
+name: Send Empty Commit Weekly
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Run every Sunday at midnight (UTC time)
+
+jobs:
+  send-empty-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Create empty commit
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git commit --allow-empty -m "Triggering empty commit from GitHub Actions"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
