@@ -2,7 +2,7 @@ name: Send Empty Commit Weekly
 
 on:
   schedule:
-    - cron: '00 2 * * *'  # Run every day at 8:55 PM CST
+    - cron: '10 2 * * *'  # Run every day at 8:10 PM CST
 
 jobs:
   send-empty-commit:
