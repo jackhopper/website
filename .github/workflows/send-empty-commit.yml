@@ -19,6 +19,6 @@ jobs:
           git commit --allow-empty -m "Triggering empty commit from GitHub Actions"
 
       - name: Push changes
-        uses: ad-m/github-push-action@main
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
