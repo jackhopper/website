@@ -32,9 +32,9 @@ with st.container():
     st.write(
     """
     My professional experience covers the entire analytics lifecycle. I have developed enterprise data warehouses in Snowflake; led Tableau implementations; and led construction of machine learning pipelines.
-    My industry focus has been primarily focused on financial services, both in a Consulting and industry focus. I started my career as an investment Research & Strategy analyst at LaSalle Investment Management, and joined another firm a few years later.
-    After spending 6 years focused on real estate markets & private equity, I got my Master's in Business Analytics and pivoted into Consulting to broaden my horizons. I started out at a boutique consulting firm in Chicago focused on data analytics consulting, 
-    and currently work for Deloitte, where I help companies use machine learning to transform financial planning. On my current client engagements I utilize tools like Databricks, Snowflake, and AWS EC2 to deliver accurate forecasts & timely pipelines.
+    My industry focus has been primarily within financial services, both in a Consulting and corporate capacity. I started my career as an investment Research & Strategy analyst at LaSalle Investment Management, and joined another firm a few years later.
+    After spending 6 years focused on real estate markets & private equity, I got my Master's in Business Analytics and pivoted into Consulting to broaden my horizons. I started out at a boutique consulting firm that specializes in data analytics consulting, 
+    and I currently work for Deloitte, where I help companies use machine learning to transform financial planning. On my current client engagements I utilize tools like Databricks, Snowflake, and AWS EC2 to deliver accurate forecasts & timely data pipelines.
     """
     )
 
@@ -50,8 +50,7 @@ with st.container():
     I love music, sports, and learning new things. This is a website to track my personal analytics work. 
     Most of my 'for fun' analytics projects involve sports data of some sort; I have no special conviction about sports data, but it's more fun to analyze things you're interested in!
     In my professional career, I've worked with lots of softwares and used data to do many things -- summarize performance, predict the future, organize business metrics -- so in my personal interest, it's all about staying sharp & doing things that are fun.
-    The projects in this site are by no means enterprise-worthy, and mostly exploratory in nature, but I enjoyed them & that's what counts!
-    
+    The projects in this site are mostly exploratory in nature, but I enjoyed them & that's what counts!
     """
         )
     with right_column:
@@ -71,7 +70,7 @@ with st.container():
     """
     I don't know HTML, and I don't know CSS. I do, however, know a little Python. I've wanted to learn more about Streamlit, and I found 
     a video tutorial that would teach me how to make my own website. That is the basis for this project! This website is extremely basic, but I enjoyed learning how to do this 
-    and I'm glad I got the opportunity. Shout out to the YouTube channel 'Coding Is Fun'!
+    and I learned a few things about Streamlit, publishing, and web design. Shout out to the YouTube channel 'Coding Is Fun'!
     """ 
         )
 
@@ -99,7 +98,7 @@ with st.container():
     """
     I did an analysis as part of the 'Big Data Bowl' 2023 with some classmates to analyze NFL data about defenses. 
     I wanted to understand if there was a way to predict whether a lineman would be beaten by a defender, using a basic set of descriptive data and play outcomes. 
-    I was not able to build a successful model; still, this was a fun, self-guided exercise in data exploration and model building in R, and I enjoyed it.
+    Even though the model I made has some clear shortcomings, this was a fun, self-guided exercise in data exploration and model building in R, and I enjoyed it.
     """   
         )
         st.markdown("[Check out the code:](https://htmlpreview.github.io/?https://github.com/jackhopper/data-bowl-23/blob/main/big_data_bowl_jh.html)")
