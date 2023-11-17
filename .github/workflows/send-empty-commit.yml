@@ -2,7 +2,7 @@ name: Send Empty Commit Weekly
 
 on:
   schedule:
-    - cron: '55 1 * * *'  # Run every day at 8:55 PM CST
+    - cron: '00 2 * * *'  # Run every day at 8:55 PM CST
 
 jobs:
   send-empty-commit:
@@ -19,6 +19,6 @@ jobs:
           git commit --allow-empty -m "Triggering empty commit from GitHub Actions"
 
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
