@@ -21,6 +21,7 @@ img_nfl = Image.open("images/nfl.jpg")
 img_lda = Image.open("images/lda_topics.png")
 img_jh = Image.open("images/jack_3.jpg")
 img_stream = Image.open("images/streamlit.jpg")
+img_clusters = Image.open("images/clusters.png")
 
 
 #-----HEADER SECTION-----
@@ -73,6 +74,21 @@ with st.container():
     and I learned a few things about Streamlit, publishing, and web design. Shout out to the YouTube channel 'Coding Is Fun'!
     """ 
         )
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_clusters, width = 300)
+    with text_column:
+        st.subheader("University Clustering")
+        st.write(
+    """
+    From my time in real estate, I became aware of a very large & wide dataset on American universities from IPEDs, a government source. Once I fugred out where to look (which took a while!),
+    I utilized k-means clustering to cut through the dozens of metrics and gain insight on how similar various schools are. I enjoyed doing an end-to-end analysis
+    for this project, from gathering & cleaning the data, doing the analysis, and neatly summarizing in an RMarkdown doc.
+    """   
+        )
+        st.markdown("[Check out the code:](https://htmlpreview.github.io/?https://github.com/jackhopper/Universities/blob/main/University-Clustering-Analysis.html)")
 
 with st.container():
     image_column, text_column = st.columns((1,2))
