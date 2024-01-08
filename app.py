@@ -49,9 +49,9 @@ with st.container():
         st.write(
     """
     I love music, sports, and learning new things. This is a website to track my personal analytics work. 
-    Most of my 'for fun' analytics projects involve sports data of some sort; I have no special conviction about sports data, but it's more fun to analyze things you're interested in!
+    Most of my 'for fun' analytics projects involve sports data of some sort; I have no special knowledge about sports data, but it's more fun to analyze things you're interested in!
     In my professional career, I've worked with lots of softwares and used data to do many things -- summarize performance, predict the future, organize business metrics -- so in my personal interest, it's all about staying sharp & doing things that are fun.
-    The projects in this site are mostly exploratory in nature, but I enjoyed them & that's what counts!
+    The projects on this site are mostly exploratory in nature, but I enjoyed them & that's what counts!
     """
         )
     with right_column:
@@ -87,7 +87,7 @@ with st.container():
     I utilized k-means clustering to gain insight on how similar various schools are. I enjoyed doing an end-to-end analysis
     for this project, from gathering & cleaning the data, doing the analysis, and generating the output. I also made my first Production-worthy
     Shiny app! The app lets the user choose their own 'k' in the clustering, and view the results in a cluster plot. 
-    I also summarized the whole analysis from end to end in an RMarkdown doc.
+    Finally, I summarized the whole analysis from end to end in an RMarkdown doc.
     """   
         )
         st.markdown("[Check out the Shiny app:](https://jackhopper24.shinyapps.io/Universities/)")
