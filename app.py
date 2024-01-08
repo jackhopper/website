@@ -84,10 +84,13 @@ with st.container():
         st.write(
     """
     From my time in real estate, I became aware of a very large & wide dataset on American universities from IPEDs, a government source. Once I fugred out where to look (which took a while!),
-    I utilized k-means clustering to cut through the dozens of metrics and gain insight on how similar various schools are. I enjoyed doing an end-to-end analysis
-    for this project, from gathering & cleaning the data, doing the analysis, and neatly summarizing in an RMarkdown doc.
+    I utilized k-means clustering to gain insight on how similar various schools are. I enjoyed doing an end-to-end analysis
+    for this project, from gathering & cleaning the data, doing the analysis, and generating the output. I also made my first Production-worthy
+    Shiny app! The app lets the user choose their own 'k' in the clustering, and view the results in a cluster plot. 
+    I also summarized the whole analysis from end to end in an RMarkdown doc.
     """   
         )
+        st.markdown("[Check out the Shiny app:](https://jackhopper24.shinyapps.io/Universities/)")
         st.markdown("[Check out the code:](https://htmlpreview.github.io/?https://github.com/jackhopper/Universities/blob/main/University-Clustering-Analysis.html)")
 
 with st.container():
