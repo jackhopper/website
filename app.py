@@ -32,7 +32,7 @@ with st.container():
     st.write('##')
     st.write(
     """
-    I help companies work with their data. My professional experience covers the entire analytics lifecycle. I have developed enterprise data warehouses in Snowflake; led Tableau implementations; and led construction of machine learning pipelines.
+    I help companies work with their data. My professional experience covers the entire analytics lifecycle. I have developed enterprise data warehouses in Snowflake; led Tableau implementations; and overseen  delivery of machine learning pipelines.
     My industry focus has been primarily within financial services, both in a Consulting and corporate capacity. I started my career as an investment strategy analyst at LaSalle Investment Management, and joined another firm a few years later.
     After spending 6 years focused on real estate markets & private equity, I got my Master's in Business Analytics and pivoted into Consulting to broaden my horizons. I started out at a boutique consulting firm that specializes in data analytics consulting, 
     and I currently work for Deloitte, where I help companies use machine learning to transform financial planning. On my current client engagements I utilize tools like Databricks, Snowflake, and AWS EC2 to deliver accurate forecasts & timely data pipelines.
