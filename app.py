@@ -159,6 +159,7 @@ with st.container():
     with left_column:
             st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
+            st.empty()
 
 import streamlit as st
 import requests
