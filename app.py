@@ -159,7 +159,7 @@ with st.container():
     with left_column:
             st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
-=======
+
 import streamlit as st
 import requests
 from PIL import Image
@@ -321,5 +321,4 @@ with st.container():
     with left_column:
             st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
->>>>>>> 0426457 (Sync with new laptop)
         st.empty()
